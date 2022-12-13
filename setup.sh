@@ -10,5 +10,5 @@ yes | curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | 
 echo 'export NVM_DIR="$HOME/.nvm"
   [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
   [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion' >>  ~/.zshrc
-sudo source .zshrc
-sudo nvm install --lts
+source .zshrc
+nvm install --lts
